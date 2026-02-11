@@ -1,6 +1,6 @@
-# Projeto de Teste Técnico: Pipeline de Dados e API RESTful
+# Pipeline de Dados e API RESTful
 
-Este projeto foi desenvolvido como parte de um processo seletivo e consiste em duas partes principais:
+Este projeto foi desenvolvido como parte de desafio técnico e consiste em duas partes principais:
 
 1.  Um **script de pipeline de dados** (`processamento_dados.py`) que realiza um processo de ETL (Extração, Transformação e Carga): extrai dados de arquivos CSV, os transforma utilizando a biblioteca Pandas e gera um arquivo `.sql` com os comandos de inserção para um banco de dados.
 2.  Uma **API RESTful** (`api.py`) desenvolvida com Flask que expõe um endpoint para consultar informações do arquivo `tipos.csv`.
@@ -57,7 +57,7 @@ Siga os passos abaixo para configurar o ambiente e executar o projeto:
         ```
     - **No macOS / Linux:**
         ```bash
-        source venv/bin/activate
+        source .venv/bin/activate
         ```
 
 5.  **Instale as dependências do projeto:**
